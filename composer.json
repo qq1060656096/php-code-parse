@@ -1,0 +1,39 @@
+{
+  "name": "zwei/php-code-parse",
+  "description": "The php go context package.",
+  "license": "MIT",
+  "homepage": "https://github.com/qq1060656096/php-code-parse",
+  "support": {
+    "issues": "https://github.com/qq1060656096/php-code-parse/issues",
+    "source": "https://github.com/qq1060656096/php-code-parse"
+  },
+  "authors": [
+    {
+      "name": "Zhao Wei Jie",
+      "email": "1060656096@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "zwei/composer-vendor-directory": "~1",
+    "phpunit/phpunit": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zwei\\PhpCodeParse\\": "./"
+    },
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zwei\\PhpCodeParse\\Tests\\": "Tests/",
+      "Zwei\\PhpCodeParse\\Examples\\": "Examples/"
+    }
+  },
+  "suggest": {
+    "php": "Required to php >=(5.4)."
+  }
+}
